@@ -1,0 +1,215 @@
+/*
+h1 p{
+    color
+    font-size
+    font-family
+    text-align
+}
+display: flex; <-- блоки виводить на одну лінію
+*/
+
+
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+/* header */
+
+.main-title {
+    font-family: 'Arapey', serif;
+    font-size: 60px;
+    color: #9DB0D1;
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+.about {
+    font-family: 'Verdana';
+    font-size: 20px;
+    text-align: center;
+    margin: 50px 210px;
+}
+
+.push-me {
+    font-family: 'Arapey';
+    font-size: 30px;
+    padding: 24px 50px;
+    background: #EBAC87;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    margin: 50px auto;
+}
+
+
+/* Navigation */
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.bullet {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #9DB0D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 50px;
+}
+
+.txt-line {
+    font-family: Verdana;
+    font-size: 20px;
+    
+}
+
+
+/* Main content */
+
+.heading {
+    background: url('/img/Clouds.png') repeat-x top / auto 200px,
+        linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
+    padding: 250px 120px 100px;
+    font-family: 'Arapey';
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-box {
+    background: #87C6EB url("/img/bg-peak.png") no-repeat right bottom / auto 475px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-block {
+    padding: 20px;
+    width: 350px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background: #ebac87;
+    border-radius: 50%;
+    border: none;
+    font-family: 'Verdana';
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 310px;
+    height: 310px;
+    background: #EBAC87;
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.description {
+    font-family: 'Verdana';
+    font-size: 20px;
+    line-height: 24px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.sub-title {
+    font-family: 'Arapey';
+    font-size: 40px;
+    color: #fff;
+    
+    margin: 75px 720px 50px 120px;
+}
+
+.information {
+    font-family: 'Verdana';
+    font-size: 20px;
+    line-height: 24px;
+    margin: 50px 0 50px 120px;
+    width: 500px;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    font-family: 'Arapey';
+    font-size: 30px;
+    color: #EBAC87;
+    text-transform: uppercase;
+    padding: 24px 50px;
+    border-radius: 10px;
+    border: none;
+    margin: 50px 0 50px 120px;
+}
+
+.contact {
+    width: 80px;
+    height: 80px;
+    background: #ebac87;
+    border-radius: 50%;
+    border: none;
+    font-family: 'Verdana';
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin: 50px 120px 50px 0;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+
+.push-foot {
+    font-family: 'Arapey';
+    font-size: 30px;
+    padding: 24px 50px;
+    background: #EBAC87;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 50px 0;
+}
+
+.social {
+    display:flex;
+    margin-top: 60px;
+}
