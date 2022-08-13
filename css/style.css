@@ -82,7 +82,7 @@ body {
 /* Main content */
 
 .heading {
-    background: url('/img/Clouds.png') repeat-x top / auto 200px,
+    background: url('../img/Clouds.png') repeat-x top / auto 200px,
         linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB 93.06%);
     padding: 250px 120px 100px;
     font-family: 'Arapey';
@@ -91,7 +91,7 @@ body {
 }
 
 .main-box {
-    background: #87C6EB url("/img/bg-peak.png") no-repeat right bottom / auto 475px;
+    background: #87C6EB url("../img/bg-peak.png") no-repeat right bottom / auto 475px;
 }
 
 .box {
